@@ -32,9 +32,13 @@
     "src",
     "global.d.ts",
     "styles",
-    "pages"
+    "pages",
+    "services", "__test__/services/openweathermap.test.ts",
   ],
   "exclude": [
     "node_modules"
+  ],
+  "typesRoot": [
+    "./types"
   ]
 }
