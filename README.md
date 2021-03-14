@@ -37,3 +37,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Connect to OpenWeatherMap with Types
 - EsLint configured
 
+
+
+## TODOs
+- No magic numbers!
+- Fix import css in tsx (no-unused-css-imports), seems something wron on css import configuration.

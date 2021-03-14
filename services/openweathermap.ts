@@ -11,7 +11,7 @@ export enum Units {
 const getAPIKey = () => process.env.OPENWEATHER_API_KEY;
 
 export async function getWeatherByCityName(
-    { cityName, stateCode, countryCode, units, lang }:
+    { cityName = '', stateCode, countryCode, units, lang }:
     { cityName: string; stateCode?: string; countryCode?: string; units?: Units; lang?: string }
 ): Promise<OpenWeatherMapResult> {
   let query = cityName;
