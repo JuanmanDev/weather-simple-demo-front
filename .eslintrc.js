@@ -32,5 +32,8 @@ module.exports = {
       version: 'detect'
     }
   },
-  plugins: [ 'css-modules' ]
+  plugins: [ 'css-modules' ],
+  rules: {
+    '@typescript-eslint/comma-dangle': [ 'error' ]
+  }
 };

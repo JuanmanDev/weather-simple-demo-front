@@ -3,3 +3,7 @@
 //   res.statusCode = 200;
 //   res.json({ name: 'John Doe' });
 // };
+
+const cuatro = 4;
+
+export default cuatro;

@@ -1,3 +1,6 @@
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8a4f5f12-98b9-4d36-8cd8-addf7ebcef40/deploy-status)](https://app.netlify.com/sites/juanmandev-next-parking-madrid-demo/deploys)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -9,6 +12,8 @@ npm run dev
 # or
 yarn dev
 ```
+
+Better with yarn: more secure.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -28,3 +33,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Current progress
+- Added test with jest
+- Connect to OpenWeatherMap with Types
+- EsLint configured
+
+
+
+## TODOs
+- No magic numbers!
+- Fix import css in tsx (no-unused-css-imports), seems something wron on css import configuration.
+
+
+# Questions:
+- Why not comma dangle????!?!??!
