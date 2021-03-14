@@ -39,6 +39,8 @@ export async function getWeatherByCityName(
   response.data.main.tempMin = response.data.main.temp_min;
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
   response.data.main.tempMax = response.data.main.temp_max;
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
+  response.data.main.grndLevel = response.data.main.grnd_level;
 
   return response.data as unknown as OpenWeatherMapResult;
 }
