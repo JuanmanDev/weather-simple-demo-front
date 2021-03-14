@@ -42,3 +42,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## TODOs
 - No magic numbers!
 - Fix import css in tsx (no-unused-css-imports), seems something wron on css import configuration.
+
+
+# Questions:
+- Why not comma dangle????!?!??!
